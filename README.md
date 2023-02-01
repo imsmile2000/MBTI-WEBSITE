@@ -6,22 +6,26 @@ The Open Graph protocol & Twitter Cards
 웹페이지가 소셜 미디어(페이스북, 트위터 등)로 공유될 때 우선적으로 활용되는 정보를 지정합니다.
 
 
-```html
-<!-- Open Graph -->
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content="내숨캐" />
-<meta property="og:title" content="내 안에 숨어있는 직업캐 찾기!" />
-<meta property="og:description" content="누구나 찰떡인 직업이 있어요! 내 안에 숨어있는 직업캐를 찾아보세요!" />
-<meta property="og:image" content="/images/thumbnail.jpg" />
-<meta property="og:url" content="https://prismatic-monstera-4c9d6a.netlify.app/" />
+    ```html
+    <!-- Primary Meta Tags -->
+    <title>내 안에 숨어있는 MBTI 찾기! by.윤표</title>
+    <meta name="title" content="내 안에 숨어있는 MBTI 찾기! by.윤표">
+    <meta name="description" content="누구나 찰떡인 직업이 있어요! 내 안에 숨어있는 MBTI를 찾아보세요!">
 
-<!-- Twitter Cards -->
-<meta property="twitter:card" content="summary" />
-<meta property="twitter:site" content="내숨캐" />
-<meta property="twitter:title" content="내 안에 숨어있는 직업캐 찾기!" />
-<meta property="twitter:description" content="누구나 찰떡인 직업이 있어요! 내 안에 숨어있는 직업캐를 찾아보세요!" />
-<meta property="twitter:image" content="/images/thumbnail.jpg" />
-<meta property="twitter:url" content="https://prismatic-monstera-4c9d6a.netlify.app/" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gorgeous-ganache-644d9d.netlify.app">
+    <meta property="og:title" content="내 안에 숨어있는 MBTI 찾기! by.윤표">
+    <meta property="og:description" content="누구나 찰떡인 직업이 있어요! 내 안에 숨어있는 MBTI를 찾아보세요!">
+    <meta property="og:image" content="https://health.chosun.com/site/data/img_dir/2022/06/20/2022062001930_0.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://gorgeous-ganache-644d9d.netlify.app">
+    <meta property="twitter:title" content="내 안에 숨어있는 MBTI 찾기! by.윤표">
+    <meta property="twitter:description" content="누구나 찰떡인 직업이 있어요! 내 안에 숨어있는 MBTI를 찾아보세요!">
+    <meta property="twitter:image" content="https://health.chosun.com/site/data/img_dir/2022/06/20/2022062001930_0.jpg" />
+        
 ```
 
 [더 많은 오픈 그래프 속성 보기](https://ogp.me/)
@@ -41,3 +45,6 @@ The Open Graph protocol & Twitter Cards
 - `twitter:description`: 페이지의 간단한 설명
 - `twitter:image`: 페이지의 대표 이미지 주소(URL)
 - `twitter:url`: 페이지 주소(URL)
+
+# 예시
+![캡처](https://user-images.githubusercontent.com/69185594/216143229-78535b11-137b-48df-983e-5274fd97669b.PNG)
