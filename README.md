@@ -46,5 +46,6 @@ The Open Graph protocol & Twitter Cards
 - `twitter:image`: 페이지의 대표 이미지 주소(URL)
 - `twitter:url`: 페이지 주소(URL)
 
-# 예시
+
+## 예시
 ![캡처](https://user-images.githubusercontent.com/69185594/216143229-78535b11-137b-48df-983e-5274fd97669b.PNG)
